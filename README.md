@@ -1,4 +1,4 @@
-![alt text](Project\ Source/resources/android/icon/drawable-xxxhdpi-icon.png "Stylist Assistant")
+![alt text](https://github.com/askalburgi/stylist-assistant/blob/master/Project%20Source/resources/android/icon/drawable-xxxhdpi-icon.png?raw=true "Stylist Assistant")
 
 ### Introduction
 
@@ -11,13 +11,8 @@ The project as it stands relies on stylists to help the app build reliably fashi
 The project’s potential to disrupt and grow the industry to a large degree makes it a potentially revolutionary technology. 
 
 
-### Build instructions 
-- `npm i`
+### Final Report 
+The final report I wrote for the course. 
 
-requres npm 
-
-### Run instructions 
-- web: `ionic serve`
-- android: `ionic cordova run android`
-
-For additional help here: https://ionicframework.com/docs/v1/guide/testing.html
+### Build/Run instructions 
+View the original repo (this repo is forked) 
