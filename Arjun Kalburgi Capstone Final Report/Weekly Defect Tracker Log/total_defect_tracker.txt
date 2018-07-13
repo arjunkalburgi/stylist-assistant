@@ -1,0 +1,241 @@
+Kaban tracking. 
+Kaban lists: Todo, Arjun, James, Vitor and Done. 
+When something had to be done but was unassigned it would go in Todo. 
+When something had to be done and was assigned, it would go under the assigned person's list. 
+When something was completed, it was moved to Done. 
+
+@rwu780 added "Modify poster recommender sections" to James on Apr 8, 2018
+
+@rwu780 added "Modify presentation recommender sections, need to add more images, and reduce number of texts" to James on Apr 8, 2018
+
+@rwu780 removed Individual Report on Apr 8, 2018
+
+@rwu780 added Individual Report to James on Apr 8, 2018
+
+@askalburgi moved "dresslog stylist as outfit" from Arjun to Done on Apr 8, 2018
+
+@askalburgi moved "app fonts and stuff?" from Arjun to Done on Apr 8, 2018
+
+@askalburgi moved "splash screen images" from Arjun to Done on Apr 8, 2018
+
+@askalburgi moved "train a little bit every night" from Vitor to Done on Apr 8, 2018
+
+@askalburgi moved "implement cybera http file server POST" from James to Done on Apr 8, 2018
+
+@askalburgi moved "Connect cybera server to firebase." from James to Done on Apr 8, 2018
+
+@askalburgi added "splash screen images" to Arjun on Apr 7, 2018
+
+@askalburgi added "app fonts and stuff?" to Arjun on Apr 7, 2018
+
+@askalburgi converted "dresslog stylist as outfit" to an issue named "dresslog stylist as outfit" on Apr 7, 2018
+
+@askalburgi added "dresslog stylist as outfit" to Arjun on Apr 7, 2018
+
+@askalburgi moved "Button functionality in the app" from Arjun to Done on Apr 6, 2018
+
+@askalburgi moved "change icon - config.xml" from Arjun to Done on Apr 5, 2018
+
+@askalburgi moved "change lorem text on upload_images.html" from Arjun to Done on Apr 5, 2018
+
+@askalburgi moved "fix centering of headers" from Arjun to Done on Apr 5, 2018
+
+@askalburgi moved "Fix tabs being at the top" from Arjun to Done on Apr 4, 2018
+
+@askalburgi added "change icon - config.xml" to Arjun on Apr 4, 2018
+
+@askalburgi added "fix centering of headers" to Arjun on Apr 4, 2018
+
+@askalburgi added "Fix tabs being at the top" to Arjun on Apr 4, 2018
+
+@rwu780 updated "implement cybera http file server POST" on Apr 3, 2018
+
+@rwu780 added "Connect cybera server to firebase." to James on Apr 3, 2018
+
+@rwu780 moved "Implement MongoDB on Cybera" from James to Done on Apr 3, 2018
+
+@rwu780 updated "Implement MongoDB on Cybera" on Apr 3, 2018
+
+@rwu780 moved "Implement MongoDB on Cybera" from Done to James on Apr 3, 2018
+
+@rwu780 updated "implement cybera http file server POST" on Apr 3, 2018
+
+@rwu780 moved "Implement MongoDB on Cybera" from James to Done on Apr 3, 2018
+
+@vitor-vfm moved "EXPERIMENT: Prepare a sample with 300 examples of each category, excluding categories that don't have enough data points, and train category tagging with it." from Vitor to Done on Apr 1, 2018
+
+@vitor-vfm moved "Augment ImageProcessor to also run predictions on attributes" from Vitor to Done on Apr 1, 2018
+
+@vitor-vfm moved "Test weighted sum attribute tagging with user images" from Vitor to Done on Apr 1, 2018
+
+@askalburgi moved "Filter feature" from Arjun to Done on Mar 31, 2018
+
+@askalburgi added "change lorem text on upload_images.html" to Arjun on Mar 30, 2018
+
+@askalburgi moved "Filter feature" from Todo  to Arjun on Mar 28, 2018
+
+@askalburgi converted "Filter feature"to an issue on Mar 28, 2018
+
+@askalburgi moved "Button functionality in the app" from Todo  to Arjun on Mar 28, 2018
+
+@askalburgi moved "Button functionality in the app" from Done to Todo  on Mar 28, 2018
+
+@askalburgi moved "Button functionality in the app" from Arjun to Done on Mar 28, 2018
+
+@askalburgi moved "verify outfit recommender outputs" from Vitor to Done on Mar 28, 2018
+
+@askalburgi moved "verify outfit recommender outputs" from Arjun to Vitor on Mar 28, 2018
+
+@askalburgi updated "Recommended Outfit object" on Mar 26, 2018
+
+@vitor-vfm added "Test weighted sum attribute tagging with user images" to Vitor on Mar 26, 2018
+
+@vitor-vfm moved "Weighted sum on attributes got good results (0.06 RMSE on 25k images), but that might be just a reflection of bias in the dataset. Discuss and decide if this is an acceptable error function." from Vitor to Done on Mar 26, 2018
+
+@askalburgi updated "implement cybera http file server POST" on Mar 26, 2018
+
+@askalburgi moved "Need to improve Outfit Recommender function. recommend_piece and/or recommend_outfit" from James to Done on Mar 26, 2018
+
+@askalburgi added "verify outfit recommender outputs" to Arjun on Mar 26, 2018
+
+@askalburgi moved "Wait for Arjun's response on item-item similarity and adjust item_similarity function" from James to Done on Mar 26, 2018
+
+@askalburgi moved "Figure out how to get cybera image links" from Todo  to Done on Mar 26, 2018
+
+@askalburgi moved "upload and download of images" from Arjun to Todo  on Mar 26, 2018
+
+@askalburgi moved "Filter feature" from Arjun to Todo  on Mar 26, 2018
+
+@vitor-vfm added "Augment ImageProcessor to also run predictions on attributes" to Vitor on Mar 26, 2018
+
+@vitor-vfm added "EXPERIMENT: Prepare a sample with 300 examples of each category, excluding categories that don't have enough data points, and train category tagging with it." to Vitor on Mar 26, 2018
+
+@vitor-vfm moved "EXPERIMENT: in the attribute tagging NN, use weighted sum of cross-entropies as loss function, with the weights being the percentage of images with that attribute in the dataset" from Vitor to Done on Mar 26, 2018
+
+@vitor-vfm added "Weighted sum on attributes got good results (0.06 RMSE on 25k images), but that might be just a reflection of bias in the dataset. Discuss and decide if this is an acceptable error function." to Vitor on Mar 26, 2018
+
+@askalburgi added "Filter feature" to Arjun on Mar 25, 2018
+
+@vitor-vfm moved "Validate attribute tagging using average sigmoid cross-entropy" from Vitor to Done on Mar 24, 2018
+
+@vitor-vfm added "EXPERIMENT: in the attribute tagging NN, use weighted sum of cross-entropies as loss function, with the weights being the percentage of images with that attribute in the dataset" to Vitor on Mar 24, 2018
+
+@vitor-vfm moved "Create new instance that uses the extra cores" from Vitor to Done on Mar 24, 2018
+
+@vitor-vfm moved "Fix attribute tagging bug: the loss tensor is multidimensional, gradient descent optimizer expects scalar" from Vitor to Done on Mar 24, 2018
+
+@rwu780 updated "implement cybera http file server POST and GET request" on Mar 24, 2018
+
+@rwu780 updated "Implement MongoDB on Cybera" on Mar 24, 2018
+
+@rwu780 updated "Need to improve Outfit Recommender function. recommend_piece and/or recommend_outfit" on Mar 24, 2018
+
+@rwu780 updated "Improve Outfit Recommender function. recommend_piece and/or recommend_outfit" on Mar 24, 2018
+
+@rwu780 converted "Wait for Arjun's response on item-item similarity and adjust item_similarity function" to an issue on Mar 24, 2018
+
+@rwu780 added "Wait for Arjun's response on item-item similarity and adjust item_similarity function" to James on Mar 24, 2018
+
+@rwu780 moved "Improve on similarity function and implement recommender system -  Friday" from James to Done on Mar 24, 2018
+
+@rwu780 updated "Improve Recommended function." on Mar 24, 2018
+
+@vitor-vfm added "Validate attribute tagging using average sigmoid cross-entropy" to Vitor on Mar 23, 2018
+
+@vitor-vfm moved "test attribute testing model" from Vitor to Done on Mar 23, 2018
+
+@vitor-vfm moved "Make a proof-of-concept predictor script that takes in a filename and outputs a prediction based on the NN(s)" from Vitor to Done on Mar 23, 2018
+
+@vitor-vfm added "Create new instance that uses the extra cores" to Vitor on Mar 23, 2018
+
+@vitor-vfm moved "Try to get more cpu's from Cybera" from Vitor to Done on Mar 23, 2018
+
+@vitor-vfm moved "Try a category-tagging neural net" from Vitor to Done on Mar 23, 2018
+
+@rwu780 added "Implement Recommended function." to James on Mar 23, 2018
+
+@rwu780 moved "Need Arjun assistance on similarity measure, after weekly meeting" from James to Done on Mar 23, 2018
+
+@rwu780 moved "Implement initial similarity function before weekly meeting" from James to Done on Mar 23, 2018
+
+@askalburgi moved "Stylist Empty state" from Arjun to Done on Mar 23, 2018
+
+@askalburgi updated "Stylist Empty state" on Mar 23, 2018
+
+@askalburgi converted "Button functionality" to an issue named "Button functionality in the app" on Mar 23, 2018
+
+@askalburgi added "Button functionality" to Arjun on Mar 23, 2018
+
+@askalburgi added "Empty state" to Arjun on Mar 23, 2018
+
+@askalburgi moved "Discuss and decide on image-related objects (recommendation outfit object, wardrobe item object)" from Arjun to Done on Mar 23, 2018
+
+@askalburgi moved "Fix registration" from Arjun to Done on Mar 23, 2018
+
+@vitor-vfm added "Make a proof-of-concept predictor script that takes in a filename and outputs a prediction based on the NN(s)" to Vitor on Mar 21, 2018
+
+@vitor-vfm added "Try a category-tagging neural net" to Vitor on Mar 21, 2018
+
+@vitor-vfm added "Fix attribute tagging bug: the loss tensor is multidimensional, gradient descent optimizer expects scalar" to Vitor on Mar 21, 2018
+
+@askalburgi added "train a little bit every night" to Vitor on Mar 19, 2018
+
+@rwu780 moved "cybera http file server" from Todo  to James on Mar 19, 2018
+
+@rwu780 added "cybera http file server" to Todo  on Mar 19, 2018
+
+@askalburgi moved "Cybera db" from Todo  to James on Mar 19, 2018
+
+@askalburgi moved "Discuss and decide on image-related objects (recommendation outfit object, wardrobe item object)" from Todo  to Arjun on Mar 19, 2018
+
+@askalburgi added "test attribute testing model" to Vitor on Mar 19, 2018
+
+@askalburgi added "Try to get more cpu's from Cybera" to Vitor on Mar 19, 2018
+
+@askalburgi moved "Discuss and decide on image-related objects (recommendation outfit object, wardrobe item object)" from James to Todo  on Mar 19, 2018
+
+@askalburgi moved "Discuss and decide on image-related objects (recommendation outfit object, wardrobe item object)" from Todo  to James on Mar 19, 2018
+
+@rwu780 moved "Cybera db" from James to Todo  on Mar 19, 2018
+
+@rwu780 moved "Cybera db" from Todo  to James on Mar 19, 2018
+
+@rwu780 added "Improve on similarity function and implement recommender system -  Friday" to James on Mar 19, 2018
+
+@askalburgi added "Discuss and decide on image-related objects (recommendation outfit object, wardrobe item object)" to Todo  on Mar 19, 2018
+
+@rwu780 added "Need Arjun assistance on similarity measure, after weekly meeting" to James on Mar 19, 2018
+
+@rwu780 updated "Implement initial similarity function before weekly meeting" on Mar 19, 2018
+
+@rwu780 added "Implement similarity function before weekly meeting" to James on Mar 19, 2018
+
+@askalburgi converted "Fix registration" to an issue named "Fix registration" on Mar 19, 2018
+
+@askalburgi added "Fix registration" to Arjun on Mar 19, 2018
+
+@askalburgi added "upload and download of images" to Arjun on Mar 19, 2018
+
+@askalburgi added "Cybera db" to Todo  on Mar 19, 2018
+
+@askalburgi updated "Recommended Outfit collage image (cybera)" on Mar 19, 2018
+
+@askalburgi added "Recommended Outfit collage image" to Todo  on Mar 19, 2018
+
+@askalburgi added "Figure out how to get cybera image links" to Todo  on Mar 19, 2018
+
+@askalburgi added "Issue or Pull Request reopened" to the Todo  column. on Mar 19, 2018
+
+@askalburgi added the purpose, Done, to the Done column. on Mar 19, 2018
+
+@askalburgi created the column "Done" on Mar 19, 2018
+
+@askalburgi created the column "Vitor" on Mar 19, 2018
+
+@askalburgi created the column "James" on Mar 19, 2018
+
+@askalburgi created the column "Arjun" on Mar 19, 2018
+
+@askalburgi created the column "Todo" on Mar 19, 2018
+
+@askalburgi created the project on Mar 19, 2018

@@ -1,0 +1,152 @@
+commit 4cd68b64d42e1d4f8f343a3dc3f99a29c6556717
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Mon Mar 12 12:54:01 2018 -0600
+
+    add firebase to project
+
+commit eb72913b1999afb5dad14c5d4c74fab3940bec42
+Merge: 4cd68b6 faca8d9
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Mon Mar 12 12:54:14 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493Group3/personalstylist
+
+commit ffc8601344af8bdb8fcea33f066f5552af0bf90e
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Mon Mar 12 20:23:29 2018 -0600
+
+    initial commit
+
+commit e8ff8d1aae86fc54fc36ca12092e35e630e2973e
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Mon Mar 12 22:58:49 2018 -0600
+
+    put lists in app.js
+
+commit 1c550a9e1a95fb3402e0cf7e2a67ff06aa24b104
+Merge: e8ff8d1 eb72913
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Mon Mar 12 22:59:29 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493-Group3/personal-stylist
+    
+    # Conflicts:
+    #       package-lock.json
+    #       package.json
+
+commit 0da5ff1918a92fb57de0e991e7512be5493dbdc6
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 14 00:07:23 2018 -0600
+
+    Working user signin
+
+commit f75eb64ca47901af983cdf91a7fbaf03fa1e9c3a
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 14 00:11:06 2018 -0600
+
+    fixed broken user_main
+
+commit bc33e5fae3412dc1076c11541ae38c10cb218d4f
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 14 00:22:13 2018 -0600
+
+    authenticate stylist and formatted app.js
+
+commit fb51e61fc0d891bbd130217a608e70e685374b40
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 14 00:39:01 2018 -0600
+
+    working registration forms (may create new users)
+
+commit 4998527ea9f9cb4cc25d29199ccd5535d5a8251f
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 14 00:41:53 2018 -0600
+
+    move signin and registration controlers to teh bottom
+
+commit c4600ccf199dd1ec0ddb10aad7db0882bae984e5
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 14 01:17:12 2018 -0600
+
+    client list successfully entered from firebase
+
+commit 3d2f301c9ec7f608bd15583e04dc9a1ee338e1f3
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 14 01:18:11 2018 -0600
+
+    oops some comments
+
+commit c3a150c521c1199712cc5fb4b06c098c9017c8e3
+Author: Vitor Mendonca <vitor.vfm@gmail.com>
+Date:   Fri Mar 16 04:44:39 2018 +0000
+
+    Use OpenCV to read and resize images
+    
+    This seems to fix the problem of excessive threads spawned. It also
+    won't be a performance problem because, as it turns out, the
+    tensorflow-native image processgin is not GPU-accelerated anyway.
+    
+    In addition, this batches the dataset in pieces of 100 and normalizes
+    the images.
+
+commit a846b38a8d869b470e2bf19cf2ab3bf0a1b6b568
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 16 00:20:43 2018 -0600
+
+    database structure defined and stylist sidebar now from firebase
+
+commit 9dd50971f2c6ae30671ebaba4977fd54bf430113
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 16 01:00:49 2018 -0600
+
+    rest of stylist main
+
+commit c5f13f8ee8e693710c8c58525bad0e50893275d7
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 16 01:36:37 2018 -0600
+
+    user side from firebase
+
+commit ef0b9c814b24bffe0ee19146cee86a8d3038a1b8
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 16 20:49:53 2018 -0600
+
+    Client side upload_images (wardrobe)
+
+commit 8bedc0d2f2aeaa821dd120f950cc8596112ccff0
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 16 20:58:36 2018 -0600
+
+    stylist upload_image
+
+commit a6044922e5f76e695312e0c56e28e3d4b9e3aade
+Author: Vitor Mendonca <vitor.vfm@gmail.com>
+Date:   Fri Mar 16 22:33:55 2018 +0000
+
+    A script to compress images
+    
+    Doing this before running the neural network might save time
+
+commit 001765a822f4b1ec89553e3d510f6820f75f3b1d
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sun Mar 18 20:01:53 2018 -0600
+
+    fixed user and stylist signin bug
+
+
+commit c57bba315395543b3c28462e686cec41b35dc82e
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Fri Mar 16 16:35:27 2018 -0600
+
+    Model for attribute tagging
+
+commit 2f213bfac047d3bca11837329ee95a1be308ae50
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Sun Mar 18 18:51:23 2018 -0600
+
+    A script that makes samples for attribute tagging
+    
+    Like the equivalent script for the top-bottom categorization task (which
+    was renamed), this script creates two TSV files, one for training and one
+    for validation, with a total sample size given by the user, which can be
+    read by the NN training program.

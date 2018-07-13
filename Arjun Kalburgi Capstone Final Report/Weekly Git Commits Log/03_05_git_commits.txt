@@ -1,0 +1,269 @@
+commit 6c1b2027ef165fe6de40e7f1fcdd893392d9f7f4
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Mon Mar 5 00:53:08 2018 -0700
+
+    stylist's client profiles
+
+commit 92247d073d7303e0ef5a7959aaaffce1a42cfbe1
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Mon Mar 5 00:54:29 2018 -0700
+
+    Accidently pushed å mistake
+
+commit 60d33e269caed37a693f36b808fcd2f5ee060fdc
+Merge: 37436e2 92247d0
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Mon Mar 5 12:01:43 2018 -0700
+
+    Merge branch 'master' of https://github.com/ECE493Group3/personalstylist
+
+commit 8d79cd907537f8e5a86fc6af7f5f68b4e9405de5
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Mon Mar 5 13:50:45 2018 -0700
+
+    Add controller.js and service.js
+    Replace tabs with buttons on index.html
+
+commit 3c6ae6187eeb4ea6421f1bb71c092efe2b65b757
+Author: Vítor <vitor-vfm@users.noreply.github.com>
+Date:   Mon Mar 5 15:36:08 2018 -0700
+
+    Update .gitignore
+
+commit 3026ed44ecb7400efb95c99bf42cf1e2a65eda73
+Author: Vitor <mendona@ualberta.ca>
+Date:   Tue Mar 6 00:41:53 2018 +0000
+
+    Initial commit
+
+commit 27c34adc977b0fca0615a420d41035817d5c68be
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Tue Mar 6 12:52:02 2018 -0700
+
+    Refactor clientprofiles style into a new file
+
+commit 670c6c54fb69a4a1ec83d723a452983683c28b9e
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Tue Mar 6 14:08:33 2018 -0700
+
+    Welcome screen completed
+
+commit dc2af945ba774e967430f5c5c6779786673d5f03
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Tue Mar 6 14:48:31 2018 -0700
+
+    put index.html content inside ion-nav-view to allow view updates
+
+commit 86601ee341e84210a98ad65305b160e359f82278
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Mar 7 04:34:32 2018 +0000
+
+    Fix usage of one-hot based cross entropy
+
+commit 310bafe2a36c118974655f2862fe1d1bfc88f213
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Tue Mar 6 23:28:33 2018 -0700
+
+    refactor welcome style
+
+commit 75871deddb240914c1e80c98563df8465a24639a
+Merge: 310bafe dc2af94
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Tue Mar 6 23:28:41 2018 -0700
+
+    Merge branch 'master' of https://github.com/ECE493-Group3/personal-stylist
+
+commit 9d2f7634b009c464f15c06ffdc1603e51ae4bb39
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Tue Mar 6 23:34:40 2018 -0700
+
+    fixing style now that it's inside the ion-view
+
+commit e978fa9c073db99bac37338427a01f3c7ba9a54f
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Tue Mar 6 23:49:50 2018 -0700
+
+    horizontal scrolling
+
+commit 771be7158fe8ad65c7ec453945a3d085f81345f2
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Mar 7 10:33:53 2018 -0700
+
+    Turn off page switching animations and solve the view switch lag problem
+
+commit a23683bd12b0b0ef0b58ce798d702dafdd4e804a
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Mar 7 11:33:26 2018 -0700
+
+    Controller working
+
+commit 64ac69de9d3daf7b432f1b2ee3a1db75e98a548f
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Mar 7 13:18:37 2018 -0700
+
+    Implement camera and network service from cordova documentations. Hadn't test the implementations yet
+
+commit 9afdb73010c0ca359a7744842182a642e4d8b08f
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Mar 7 14:06:08 2018 -0700
+
+    just push
+
+commit df29d3e0ddac0f5ee99c99e5b2d8630d12d6352f
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Mar 7 14:52:59 2018 -0700
+
+    do not cache view
+
+commit 1b0c4a87778039e3180037b52c7af61c9c2f23de
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 7 14:53:37 2018 -0700
+
+    bunches of design fixes
+
+commit ea6feb2f3426c8a48dae8588474d18ccf13795cb
+Merge: 1b0c4a8 df29d3e
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 7 14:54:43 2018 -0700
+
+    Merge branch 'master' of https://github.com/ECE493-Group3/personal-stylist
+    
+    # Conflicts:
+    #       www/user/user_main.html
+    mergefix
+
+commit e4be117f95e1983116ef0f11be2faabf415a11de
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Mar 7 15:40:59 2018 -0700
+
+    do not cache view
+
+commit 0794aca05f0ac0c6582ca4bd1a6a29431503b2f2
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Mar 7 16:51:39 2018 -0700
+
+    commit on day end
+
+commit 7b53c140c907b3733cc7c558b01c2c18dd097757
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 7 19:50:52 2018 -0700
+
+    edit mode on stylist's client profile
+
+commit a71592d74eec825581092764a2de04001efb1c0f
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 7 20:42:24 2018 -0700
+
+    new upload_image page, needs better copy though
+
+commit b60057a624a3c89e5cfcd7d878de4eda20fc23b1
+Merge: 0794aca a71592d
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Thu Mar 8 11:26:34 2018 -0700
+
+    Merge branch 'master' of https://github.com/ECE493Group3/personalstylist
+
+commit 88fd3fe1a3c0beff81fd7d93d0bafeaa68c01732
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Thu Mar 8 13:30:33 2018 -0700
+
+    camera working, need to set parameters
+
+commit abc63d3debb79b6ad638504999d67bdcf0006d50
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Thu Mar 8 18:02:04 2018 -0700
+
+    take photo and load photo method works
+
+commit 12090cbb1de522eb00861b51dee728f10f7a8fbb
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Mar 9 13:50:12 2018 -0700
+
+    commit
+
+commit fc2043c5b398a83f55bbde052672dfef062d40bf
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 9 14:51:15 2018 -0700
+
+    client request list
+
+commit a03e81ad24d7d48787e464bac4ab8047dd9b39da
+Merge: fc2043c abc63d3
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 9 14:51:19 2018 -0700
+
+    Merge branch 'master' of https://github.com/ECE493-Group3/personal-stylist
+
+commit d8f720004050744d9805d8e60c3a7c5f5da6c900
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 9 15:12:44 2018 -0700
+
+    removing remove from stylist main
+
+commit e1c3cc3bfc7d86ce73e09f0338d9be327359c9ad
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 9 15:13:17 2018 -0700
+
+    fix design of upload_image action buttons
+
+commit 7cd3fe517446de966982f29f411f76d5860bdebe
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 9 16:34:28 2018 -0700
+
+    unfinished upload_images image list
+
+commit ea1079564b2ad1ea4aaa459587f29e3e6dd8526f
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Fri Mar 9 17:17:06 2018 -0700
+
+    Remove redundant image-processing directory
+
+commit 75382a4536a5b807645cdd5f82e56f1ade336c43
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Fri Mar 9 17:33:29 2018 -0700
+
+    Move gitignore and add data file patterns to it
+
+commit 25de533489e0629220d3374881afc94d01b04a2f
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Fri Mar 9 17:33:49 2018 -0700
+
+    Start a top/bottom classifier
+
+commit becb13110c23a48d3313609c9a0ca5de1f83a7d4
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Fri Mar 9 17:44:00 2018 -0700
+
+    First draft of VGG-16 model
+    
+    Only input and final dense layers
+
+commit 8ca3571d80d749f21a1e8565befacbd3b777defe
+Author: Vitor Mendonca <vitor.vfm@gmail.com>
+Date:   Sat Mar 10 03:21:43 2018 +0000
+
+    Full neural net model
+
+commit f2c52e22726c12e81923e3abd8eedbe41a5cef24
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sat Mar 10 11:57:43 2018 -0700
+
+    completed upload_image style
+
+commit faca8d9c30e9b931098a7be052c9d8dc3a584d09
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sat Mar 10 12:03:32 2018 -0700
+
+    clean up stylesheets
+
+commit dc03dca472b7e975584df05eef06a044795ab1f1
+Author: Vitor Mendonca <vitor.vfm@gmail.com>
+Date:   Sun Mar 11 02:43:22 2018 +0000
+
+    Fixes
+
+commit cc8fb49cd9ce9f9a1f619719fdb0a9cabccde7f2
+Author: Vitor Mendonca <vitor.vfm@gmail.com>
+Date:   Sun Mar 11 03:24:02 2018 +0000
+
+    Fix incorrect usage of tf.image.resize_images

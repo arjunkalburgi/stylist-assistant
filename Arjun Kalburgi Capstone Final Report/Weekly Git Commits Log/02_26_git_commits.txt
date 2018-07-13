@@ -1,0 +1,41 @@
+commit c290fa8bd93f754ca8a4427e065aa02b7a610273
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Feb 28 12:44:02 2018 -0700
+
+    initial view completed
+
+commit 65a45e073013cd20782d38505a2ef6b61a1aeeb1
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sat Mar 3 01:32:30 2018 -0700
+
+    all signin/registeration screens styled
+
+commit 55dc23559b1e83a2e24798c6fa4f6c2db0e895b9
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sat Mar 3 15:53:49 2018 -0700
+
+    user main style
+
+commit b045b12cd8c6e3fd8841753f6a1180e3f19e2675
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Sun Mar 4 16:21:37 2018 -0700
+
+    Add camera and network to config.xml
+
+commit 37436e213bc513500ca817703a56ff87e780da3e
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Sun Mar 4 16:23:29 2018 -0700
+
+    Add Camera and Network
+
+commit 1405782c81023d308a3fae0c6ab636efb71a973c
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sun Mar 4 19:00:14 2018 -0700
+
+    changing theme
+
+commit cd772cf395b5cebf2026251c7b8c2997a3978e8e
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sun Mar 4 19:43:01 2018 -0700
+
+    Client list for stylist

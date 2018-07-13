@@ -1,0 +1,307 @@
+
+commit ae7595c346590735cbf970d67961490d94112753
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Mon Apr 9 23:24:04 2018 -0600
+
+    proper projectstarter with real data
+
+commit 39fd424c0d7fd3126c6a0fcbe808b69d4d2904b0
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Mon Apr 9 23:37:26 2018 -0600
+
+    new example image
+
+commit 84372954506356fb6e3e62f57bed8864edc46848
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Mon Apr 9 23:37:48 2018 -0600
+
+    new image*
+
+commit 22d89ba2511c2b37e02d9ac033ee735e93024167
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Mon Apr 9 23:38:23 2018 -0600
+
+    this is the new image, previous was new button style and logic
+
+commit e8a2828463662e29af864e264148eb1ba569159c
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Mon Apr 9 23:45:30 2018 -0600
+
+    styled outfit upload
+
+commit 28b7dd4dccca1ee30bdaee76ece447c26252bcf5
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Mon Apr 9 23:46:07 2018 -0600
+
+    copy bug in text copy
+
+commit e725c94052d5124624b8f84f1ed0a0967231956f
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Tue Apr 10 00:12:48 2018 -0600
+
+    bugfix for ng-show and hide
+
+commit 3661981d5af84c9832531eac00bd834233d2ade7
+Merge: e725c94 0eba781
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Tue Apr 10 12:44:58 2018 -0600
+
+    Merge remote-tracking branch 'nn/master'
+
+commit b346f9ff0066cd6d9fa963e671d7bc74beadc278
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Tue Apr 10 12:57:53 2018 -0600
+
+    Move neural network training into its directory
+
+commit 63c219e25a2b07a4fabb24ef205f01bddf13a683
+Merge: b346f9f a9e6d85
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Tue Apr 10 12:58:26 2018 -0600
+
+    Merge remote-tracking branch 'rec/master'
+
+commit 5836aff5ac7811c20e2fc3d4ee31025f6f5d0494
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Tue Apr 10 13:03:25 2018 -0600
+
+    Move recommender to its own directory
+
+commit 978c918deececb235417eeb8e5cd69ed34cbce36
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Tue Apr 10 14:18:55 2018 -0600
+
+    design bugfix for uploadimages
+
+commit 9f7f32b366c457457cdb1e22719212bbbdceb910
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Tue Apr 10 15:38:44 2018 -0600
+
+    fix username error bug
+
+commit 234cd92c173e56b49a8b1bb459aeb11670605c70
+Author: Vitor Mendonca <mendona@ualberta.ca>
+Date:   Tue Apr 10 22:00:46 2018 +0000
+
+    Use Cloth's equals method
+    
+    Removes duplicates from the recommended list.
+    Also fixes a couple of syntax errors.
+
+commit ea8ad9edb8e5af4083ce1e073f32f934280a1e3c
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Apr 11 21:11:06 2018 -0600
+
+    add test plan, need to backup database before continue
+
+commit e742fd24aa8502c60620c5344806a4b776d5b8d1
+Author: James <rwu780@gmail.com>
+Date:   Wed Apr 11 22:06:33 2018 -0600
+
+    Update README.md
+
+commit e995ceaac664577285e98617f61ffe9e1bd5b738
+Author: James <rwu780@gmail.com>
+Date:   Wed Apr 11 22:18:02 2018 -0600
+
+    Update README.md
+
+commit da44d1bfe56e2129b6ad6bef9fb96345f6c08ea8
+Author: James <rwu780@gmail.com>
+Date:   Wed Apr 11 22:18:33 2018 -0600
+
+    Create README.md
+
+commit 92ea90459197c26ed56c7a68051b60784a69598f
+Author: James <rwu780@gmail.com>
+Date:   Wed Apr 11 22:21:31 2018 -0600
+
+    Update README.md
+
+commit 6dd7eac522bf1e5d255b5a843aaf2f8df22a21ce
+Author: James <rwu780@gmail.com>
+Date:   Wed Apr 11 22:21:44 2018 -0600
+
+    Update README.md
+
+commit c1b14a7a50e79b39d0f926fb23385665f0b50a49
+Merge: ea8ad9e 6dd7eac
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Apr 13 00:10:49 2018 -0600
+
+    inital implementation of test suit
+
+commit 5b7979dc65d8daaee85915348fc458f421bb1ca1
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Apr 13 00:14:44 2018 -0600
+
+    add pants to list_category_cloth.txt
+
+commit ec3a6e3cc33f5429b3e71e7963d0f880c1f55820
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Apr 13 15:10:48 2018 -0600
+
+    add empty test and conf file
+
+commit 4f164f875d4f1bd2fcf9c02777f35e3533f5ae95
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 13 17:18:03 2018 -0600
+
+    conf pages
+
+commit e123b425f7fee1c0639ae80c120293ad411cb01c
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 13 17:18:54 2018 -0600
+
+    user and stylist profile creation
+
+commit 7ada3730f032189480ed55de5dde37678861265e
+Author: Vitor Mendonca <mendona@ualberta.ca>
+Date:   Fri Apr 13 23:51:30 2018 +0000
+
+    Add type prediction to ImageProcessor
+    
+    The type of an image can be inferred from the category, but this new
+    method allows the type to be queried directly to make it a better
+    interface.
+
+commit 4ac0ff15da2a5779b669a4a75598fb04adf025ee
+Author: Vitor Mendonca <mendona@ualberta.ca>
+Date:   Fri Apr 13 23:24:30 2018 +0000
+
+    Add test images for the NN unit tests
+
+commit 77b1f7941c133a6c4c4b048d15625a3fa189a8c3
+Author: Vitor Mendonca <mendona@ualberta.ca>
+Date:   Fri Apr 13 23:54:58 2018 +0000
+
+    Unit tests for the image processor
+    
+    Tests predictions of types and attributes
+
+commit 4a6f5f3adcc698b102669b5327326b3cc85fed49
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 13 17:57:22 2018 -0600
+
+    test for delete photo in the database
+
+commit e3370485489549fb95158dfd7bbabd62b1e88d25
+Merge: 4a6f5f3 77b1f79
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 13 18:05:24 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493Group3/stylist-assistant
+
+commit 8df7aee1700ce90eeff4585b400b5f6fb0be1d1b
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 13 18:38:56 2018 -0600
+
+    Stylist Accepts User Test 4.1
+
+commit 49fd1d3909baf4017cdd952e78e7f821a6abe867
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Apr 13 18:39:33 2018 -0600
+
+    system feature user_profile_creation 1.1,1.2,1.3
+
+commit 2bb8330a0c099d2bc421a404056213b69d1e451c
+Merge: 49fd1d3 8df7aee
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Apr 13 18:39:43 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493Group3/stylist-assistant
+
+commit 4cfded4a83293146d56ba52f424fa9d5f1462e82
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 13 18:46:07 2018 -0600
+
+    Stylist Accepts User Test 4.2
+
+commit 0cfc0fc233e8bc4d7371692e11c5938754d43d30
+Merge: 4cfded4 2bb8330
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 13 18:46:15 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493Group3/stylist-assistant
+
+commit 9054e08cad30d91f97919a3e0d63cfa85a856154
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Apr 13 19:03:40 2018 -0600
+
+    Stylist Profile Creation - 2.1, 2.2
+
+commit 2f5d3b69ae65262e3f2c7fff61dc37c3e0e4f25f
+Merge: 9054e08 0cfc0fc
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Apr 13 19:04:13 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493Group3/stylist-assistant
+
+commit 50b8e2efb9c1024d9f2873d68bf2176c3ca179aa
+Author: Vitor Mendonca <mendona@ualberta.ca>
+Date:   Sat Apr 14 01:16:20 2018 +0000
+
+    Add extra instructions to recommender and back-end
+
+commit 42c49ba748d2e6e58bc75beeaccb5bc951a4487f
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 13 19:06:22 2018 -0600
+
+    User Recommendation View Test 5.1 as well as better accept user
+
+commit 1e8ca9a8c57d13b412e41aab26dab6cbe8488436
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 13 19:21:42 2018 -0600
+
+    User Wardrobe View Test 6.2
+
+commit 6f22ee4c36d8e070315fdd4672b961a36fd87691
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Apr 13 19:28:22 2018 -0600
+
+    7.1
+
+commit 56ca2cf810da2ba20c563d1031c3e74b53bfccd4
+Merge: 6f22ee4 1e8ca9a
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Apr 13 19:28:26 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493Group3/stylist-assistant
+
+commit 2dcf73233116c886a9298f177e861b57d03b4dfa
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 13 19:30:27 2018 -0600
+
+    readme
+
+commit 04af770ce90460d2dd4f67e2c980f895aeb3f35d
+Merge: 2dcf732 56ca2cf
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 13 19:30:34 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493Group3/stylist-assistant
+
+commit e55a5e125ee760bad30407c3aefbb6f138a1f038
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 13 19:33:27 2018 -0600
+
+    readme fixes
+
+commit 0f5d8f65430f3709076744a90c05d1381cdb045c
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Apr 13 19:43:21 2018 -0600
+
+    8.1
+
+commit efd0b051120c77c8c3c1a7bf6aeddad576a812b7
+Merge: 0f5d8f6 e55a5e1
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Apr 13 19:43:30 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493Group3/stylist-assistant
+
+commit 26d1d0e606760fdcf9395ca31ffb6104f23044d9
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Fri Apr 13 20:03:29 2018 -0600
+
+    Extra information on the READMEs and cleanup

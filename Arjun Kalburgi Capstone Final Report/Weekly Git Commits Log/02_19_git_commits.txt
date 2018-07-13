@@ -1,0 +1,23 @@
+commit 36d862c69d15575f4898dd9bdbb978ed3813b5a6
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Feb 23 20:56:50 2018 -0700
+
+    combine user_signIn.html and stylist_signIn.html into index.html
+
+commit bac31d49b727a37ff1e1726eaed6c3c603fdba3b
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Feb 23 21:01:07 2018 -0700
+
+    add comments
+
+commit a1562bebceb6a555b317f1e2d9520629e4776b19
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Sun Feb 25 11:18:23 2018 -0700
+
+    implement stylist_main.html
+
+commit 63f662f2701f377e2d9a765de8833d53e7209c62
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Tue Feb 27 14:24:59 2018 -0700
+
+    user app.js to control and navigate between html pages

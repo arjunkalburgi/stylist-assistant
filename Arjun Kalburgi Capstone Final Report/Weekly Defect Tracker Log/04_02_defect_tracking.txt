@@ -1,0 +1,63 @@
+Kaban tracking. 
+Kaban lists: Todo, Arjun, James, Vitor and Done. 
+When something had to be done but was unassigned it would go in Todo. 
+When something had to be done and was assigned, it would go under the assigned person's list. 
+When something was completed, it was moved to Done. 
+
+@rwu780 added "Modify poster recommender sections" to James on Apr 8, 2018
+
+@rwu780 added "Modify presentation recommender sections, need to add more images, and reduce number of texts" to James on Apr 8, 2018
+
+@rwu780 removed Individual Report on Apr 8, 2018
+
+@rwu780 added Individual Report to James on Apr 8, 2018
+
+@askalburgi moved "dresslog stylist as outfit" from Arjun to Done on Apr 8, 2018
+
+@askalburgi moved "app fonts and stuff?" from Arjun to Done on Apr 8, 2018
+
+@askalburgi moved "splash screen images" from Arjun to Done on Apr 8, 2018
+
+@askalburgi moved "train a little bit every night" from Vitor to Done on Apr 8, 2018
+
+@askalburgi moved "implement cybera http file server POST" from James to Done on Apr 8, 2018
+
+@askalburgi moved "Connect cybera server to firebase." from James to Done on Apr 8, 2018
+
+@askalburgi added "splash screen images" to Arjun on Apr 7, 2018
+
+@askalburgi added "app fonts and stuff?" to Arjun on Apr 7, 2018
+
+@askalburgi converted "dresslog stylist as outfit" to an issue named "dresslog stylist as outfit" on Apr 7, 2018
+
+@askalburgi added "dresslog stylist as outfit" to Arjun on Apr 7, 2018
+
+@askalburgi moved "Button functionality in the app" from Arjun to Done on Apr 6, 2018
+
+@askalburgi moved "change icon - config.xml" from Arjun to Done on Apr 5, 2018
+
+@askalburgi moved "change lorem text on upload_images.html" from Arjun to Done on Apr 5, 2018
+
+@askalburgi moved "fix centering of headers" from Arjun to Done on Apr 5, 2018
+
+@askalburgi moved "Fix tabs being at the top" from Arjun to Done on Apr 4, 2018
+
+@askalburgi added "change icon - config.xml" to Arjun on Apr 4, 2018
+
+@askalburgi added "fix centering of headers" to Arjun on Apr 4, 2018
+
+@askalburgi added "Fix tabs being at the top" to Arjun on Apr 4, 2018
+
+@rwu780 updated "implement cybera http file server POST" on Apr 3, 2018
+
+@rwu780 added "Connect cybera server to firebase." to James on Apr 3, 2018
+
+@rwu780 moved "Implement MongoDB on Cybera" from James to Done on Apr 3, 2018
+
+@rwu780 updated "Implement MongoDB on Cybera" on Apr 3, 2018
+
+@rwu780 moved "Implement MongoDB on Cybera" from Done to James on Apr 3, 2018
+
+@rwu780 updated "implement cybera http file server POST" on Apr 3, 2018
+
+@rwu780 moved "Implement MongoDB on Cybera" from James to Done on Apr 3, 2018

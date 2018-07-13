@@ -1,0 +1,208 @@
+
+commit 0c4f73a6e78c133c316ea08194c862d1aef4dadc
+Author: Vitor <mendona@ualberta.ca>
+Date:   Tue Mar 20 00:44:00 2018 +0000
+
+    Move file reading and pre-processing to cnn module
+    
+    This is model-dependent and common to both NNs, so it makes more sense
+    there.
+
+commit f8c32be8290d0d18176706ba12a211f397661b87
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Mon Mar 19 22:49:56 2018 -0600
+
+    commit
+
+commit cc2d83ee3346c2b6ce671bf0401d263db300e78c
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Tue Mar 20 13:55:37 2018 -0600
+
+    get attribute type and label
+
+commit 6d5484d322ae1d76e1e0e3cd5ee3d3f4c5a4474a
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Tue Mar 20 17:12:04 2018 -0600
+
+    implement initial similarity function
+
+commit 08937b206cf43edf7ac2b72dd61620e0c75dad7a
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Tue Mar 20 18:10:53 2018 -0600
+
+    randomly selected an sample and compare it to the rest of the images.
+    
+    Need Arjun's input on configuring the similarities
+
+commit eb3e0beac9e53482505fbcf6295906f181de6e9b
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Mar 21 02:13:11 2018 +0000
+
+    Shuffle sample file
+    
+    Otherwise the sample file would be sorted, which would cause errors in
+    training
+
+commit d5ad9e896967bcddb63cb03b4199e27116b54b21
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Mar 21 22:28:10 2018 +0000
+
+    Accept training files as command line args
+
+commit e6f3b485603ccb4193626c209bec7201fed1df8e
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Mar 21 22:53:24 2018 +0000
+
+    Change default sample file name in top/bottom
+    
+    The file referenced a "category", which would be confusing because it
+    refers to the top/bottom/full-body types, not the 50 categories. Change
+    it to refer to "type" instead.
+
+commit c2ddb05cc3755ed56f6dcf360bf30806d738112e
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Mar 21 22:55:06 2018 +0000
+
+    A script to generate category tagging sample files
+
+commit bd75dc322af7e35553daa97542cd2af922406289
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Mar 21 22:59:29 2018 +0000
+
+    A model and training script for category tagging
+    
+    This is very similar to top/bottom/full-body type tagging, with the
+    difference that the last dense layer has 50 nodes instead of 3.
+
+commit 15f7ba0fac8c0ae1bd6744811944b72ce6938841
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Thu Mar 22 09:55:34 2018 -0600
+
+    stylist and client registration complete with error messaging and updating the database
+
+commit 678e7a2f88183870bdba62074926f0c3c0aa2c1d
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Thu Mar 22 10:41:20 2018 -0600
+
+    error messaging for user registration if stylist email is not found
+
+commit b73cb52dbe7526e316e0914b04f14f3d2194c2c5
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Thu Mar 22 15:19:21 2018 -0600
+
+    Attach category_label to each image. Create Hirearchy tree. Need to implement similarity function based on tree
+
+commit 8fcc90dc1f6ebb3b5691cf2c32535a5b1d9ce697
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Thu Mar 22 15:27:40 2018 -0600
+
+    attach cat_label to cloth and create node tree, need to implement simiarity based on tree
+
+commit 6bb4e6eb22b6d81ed1a010bedc501729e023bf5b
+Author: Vitor <mendona@ualberta.ca>
+Date:   Thu Mar 22 22:53:23 2018 +0000
+
+    Move logging tensor names to cnn module
+    
+    In order to setup logging in the training scripts, a tensor name needs
+    to be provided. Move those names to the CNN module to decrease coupling.
+
+commit ca6a30f65196405ca16e2fddcd52f92ebd1eb223
+Author: Vitor <mendona@ualberta.ca>
+Date:   Thu Mar 22 23:04:43 2018 +0000
+
+    Updates to attribute tagging model
+    
+    - Apply a sigmoid to the logits layer and use that as output. That way
+      the ouput vector represents probabilities for each attribute.
+    - Use root-mean-squared error as the evaluation metric. Simple accuracy (percentage
+      that matches the labels *exactly*) would be a bad
+      metric because it's too extreme.
+    - Use as loss function the mean sigmoid cross entropy between the labels
+      and the logits layer. Need to evaluate efficacy of this loss function.
+
+commit bf7651b44629cd2d1ad8dac4a747bb02054115c0
+Author: Vitor <mendona@ualberta.ca>
+Date:   Thu Mar 22 23:05:09 2018 +0000
+
+    A training script for attribute tagging
+
+commit efb6177741da1cfa876cb94ec9883b72fd08a4db
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Thu Mar 22 19:41:22 2018 -0600
+
+    Improvements to sample-making scripts
+    
+    With these changes, the scripts will not select images that exist in a
+    previously-made sample file, and will backup the existing sample before
+    making a new one
+
+commit 7d594d1849bb70bb3121c1e72cdbbda6f8a221a5
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 23 12:39:31 2018 -0600
+
+    user side empty states
+
+commit dd0659a2e0ee9f5f0f3659395ce6d3e41fbe636a
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Mar 23 13:34:22 2018 -0600
+
+    implement similarity function based on tree hierarchies
+
+commit 219a45301a2b4fb050e9ef896f01547c6f472031
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 23 13:40:07 2018 -0600
+
+    stylist side empty states
+
+commit c73da64ce533cacd4ce4a016ed0e38b22c89dd68
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 23 13:54:57 2018 -0600
+
+    empty state for before stylist has selected a client
+
+commit 246edc8c3d257d10208c72aeba9d45919672ef74
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Mar 23 14:30:34 2018 -0600
+
+    separate recommender into separate files. Implement functions to write and retrieve from db, functions to test cloth_hierarchy, and calculate similarity based on cloth_hierarchy
+
+commit fdc7c6c622b450837f955177c32313498525d309
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Fri Mar 23 15:57:50 2018 -0600
+
+    Rename pre-processing functions in CNN
+    
+    This allows us to hve two, one for training data and for predicting data
+
+commit af325ce22a0eab68be7b208663b7c5c0b464fa1d
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Fri Mar 23 16:04:08 2018 -0600
+
+    Start a predictor that uses the neural nets
+    
+    Currently it works with category tagging
+
+commit 4a7be6a17ed04eab19b0b62687dda1a8cebf6332
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Mar 23 16:46:22 2018 -0600
+
+    initial implementation of recommender
+
+commit 15a92fab4c5e02e9bb7ca8a24964d708451129e6
+Author: Vitor <mendona@ualberta.ca>
+Date:   Sat Mar 24 01:57:44 2018 +0000
+
+    Limit number of items in validation set
+
+commit d5f5a0b98386d576bdacaba552320ec3f04ea334
+Author: Vitor <mendona@ualberta.ca>
+Date:   Sun Mar 25 02:10:42 2018 +0000
+
+    Small bug fixes in CNN
+
+commit 67a5783bfe88e6c1d29302aa5fcb09bca83635de
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Sun Mar 25 18:29:38 2018 -0600
+
+    Implement recommend_outfit and recommend_piece function

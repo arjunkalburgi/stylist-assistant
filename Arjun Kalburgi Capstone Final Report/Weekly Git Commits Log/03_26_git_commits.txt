@@ -1,0 +1,213 @@
+commit 476b853a07eecd23dac9eaab6b469ef0ffe78ff7
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Mon Mar 26 13:55:24 2018 -0600
+
+    A script to calculate category frequencies
+    
+    In specific, it calculates the quantity and ratio of each category in
+    the data set. This information is useful when evaluating bias in the
+    data.
+
+commit ef772d79279d8ac71d4546092f22092801e34b77
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Wed Mar 28 16:24:41 2018 -0600
+
+    Add ImageProcessor class
+    
+    This class wraps calls to tensorflow Estimators, in order to run
+    predictions from image filenames, based on our training data
+
+commit 58af8a64ca27e0aef2df159cd417480e93b37fae
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Mar 28 16:27:15 2018 -0600
+
+    implementation of back-end-server
+
+commit 79cc201a80936d821f35ea480a4bbb06f139ced6
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Mar 28 16:49:56 2018 -0600
+
+    create script to update firebase
+
+commit 155288b30c0d94d669a16d9e2ddcfd5f594cd664
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Mon Mar 26 15:46:41 2018 -0600
+
+    Script that makes an equally distributed sample
+    
+    This creates a sample from the dataset using only selected categories
+    and with an equal number of datapoints in each category.
+
+commit 4e74e23323e2b642b5d1d72a1e4d27221e200abb
+Author: Vitor <mendona@ualberta.ca>
+Date:   Mon Mar 26 22:44:16 2018 +0000
+
+    Move selected categories to a config file
+
+commit 8324a819d2483016ec5d5ca37df10dcb548f4417
+Author: Vitor <mendona@ualberta.ca>
+Date:   Mon Mar 26 22:45:15 2018 +0000
+
+    Use selected category indices as labels
+    
+    With this change, the labels can be read directly from the sample file
+    in the category tagging training script (no need to parse)
+
+commit 64297fe1e10aa8502b83ad79f6666863780913a5
+Author: Vitor <mendona@ualberta.ca>
+Date:   Mon Mar 26 23:19:00 2018 +0000
+
+    Split equal sample between training and validation
+
+commit ebd2685af2c929c01faece68265a73e8d6ed7d0e
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Mar 28 23:21:32 2018 +0000
+
+    Adapt category tagging for selected categories
+    
+    Use the number of categories specified in nn_config as the number of
+    perceptrons in the last dense layer
+
+commit ba520f9817fb6cde2fa0c6387c4a1d8f44d547a5
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Mar 28 23:24:23 2018 +0000
+
+    Adapt training script to selected categories
+
+commit 19c8c3d7ab2ab033377dc0a78b9e45fab56d6cbe
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Wed Mar 28 18:10:43 2018 -0600
+
+    Use selected categories in ImageProcessor
+
+commit e122c37de4b7ecbfd76bbca3cdb89c23bd86925f
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Wed Mar 28 18:11:22 2018 -0600
+
+    Improve validation in sample-making script
+
+commit 26c51e110c63c0231ea35d67cd87f2ee41c8f586
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 28 23:04:41 2018 -0600
+
+    building out db in terms of image content
+
+commit 07a5378fd06e609948daa08e89f6d28a1be246ed
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 28 23:15:29 2018 -0600
+
+    full empty state bugfix
+
+commit 1cc6b5ba3c540766b3cd31c542deef582c5fab99
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Mar 28 23:53:39 2018 -0600
+
+    on registration, this side menu still doesn't open.
+
+commit abaae2d96859a3e7ecbd7770cb81ebf198fddc95
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Thu Mar 29 00:01:57 2018 -0600
+
+    make sure dressLog is ordered by date
+
+commit 4656bfaeb4de0b7dd3363439e0972a252180dca4
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Thu Mar 29 11:09:29 2018 -0600
+
+    Dismiss client request
+
+commit a45f7f7ce6ed14f78ed9d92418d425488a87dce9
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Thu Mar 29 11:16:37 2018 -0600
+
+    Accept client request
+
+commit f694e23fdcdd0d9c62764f7196541514a13f4862
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Thu Mar 29 21:01:48 2018 -0600
+
+    remove usermain side menu
+
+commit 0d5507dc437c9a10b612f5f04ae91b502bf092db
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 30 16:00:35 2018 -0600
+
+    setup category list for filter
+
+commit 591728a8e4f0b757e65de9db756be0983e023d94
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 30 16:35:28 2018 -0600
+
+    filteration complete
+
+commit 5be2359dd89080181e74a8129e050eda8a0b45be
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 30 16:47:55 2018 -0600
+
+    fix project starter and reindent
+
+commit f1290cc3a3bbeb156d6d0338e04f1b506d021e4c
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Fri Mar 30 16:55:37 2018 -0600
+
+    Able to connect to firebase, need to implement mongoDB first
+
+commit 2ab3196d55d668d08148cdae27ffd08619f9cdf9
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 30 20:11:11 2018 -0600
+
+    side by side filteration with user recommendations and wardrobe
+
+commit a6ceb307a132510a5cf17860e207f7ffc7f71d38
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 30 20:12:13 2018 -0600
+
+    update to test json
+
+commit 37ea3398cdcea91d449a0727a6bd5be379944f59
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 30 20:38:04 2018 -0600
+
+    new controller for recommend
+
+commit dbd532d06b48d71ee675bb74fea8f412c323d98a
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Mar 30 21:12:27 2018 -0600
+
+    successfully filtering of user side recommended outfits
+
+commit 30c497987a2f7d27782a012207085df019535a2e
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sat Mar 31 11:30:48 2018 -0600
+
+    update dresslog and recommended items to support categories
+
+commit e2d04cfdcd757f86ec639cca76c4081cc2296b91
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sat Mar 31 11:31:21 2018 -0600
+
+    implement filters in the stylist (dress log, wardrobe and recommended items)
+
+commit c5efe321290f833416b0384d87107dc9ab4fd29d
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sat Mar 31 20:11:54 2018 -0600
+
+    filter feature in the upload images page
+
+commit b0b1d26d9976d921425d5787c1d1b74d2857b4fe
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sat Mar 31 20:12:06 2018 -0600
+
+    changing all buttons to match filter
+
+commit f816123485af96b8364ce3cb1ce1b108f9aec328
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sat Mar 31 21:23:48 2018 -0600
+
+    select ootd for dress log!
+
+commit b21e78a04ae57add4f9c348cfd23e76dce7be4f9
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Sun Apr 1 20:49:53 2018 -0600
+
+    implement server to take parameters and return iamge url after post request

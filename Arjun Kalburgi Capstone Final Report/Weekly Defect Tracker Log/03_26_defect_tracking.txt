@@ -1,0 +1,58 @@
+Kaban tracking. 
+Kaban lists: Todo, Arjun, James, Vitor and Done. 
+When something had to be done but was unassigned it would go in Todo. 
+When something had to be done and was assigned, it would go under the assigned person's list. 
+When something was completed, it was moved to Done. 
+
+@vitor-vfm moved "EXPERIMENT: Prepare a sample with 300 examples of each category, excluding categories that don't have enough data points, and train category tagging with it." from Vitor to Done on Apr 1, 2018
+
+@vitor-vfm moved "Augment ImageProcessor to also run predictions on attributes" from Vitor to Done on Apr 1, 2018
+
+@vitor-vfm moved "Test weighted sum attribute tagging with user images" from Vitor to Done on Apr 1, 2018
+
+@askalburgi moved "Filter feature" from Arjun to Done on Mar 31, 2018
+
+@askalburgi added "change lorem text on upload_images.html" to Arjun on Mar 30, 2018
+
+@askalburgi moved "Filter feature" from Todo  to Arjun on Mar 28, 2018
+
+@askalburgi converted "Filter feature"to an issue on Mar 28, 2018
+
+@askalburgi moved "Button functionality in the app" from Todo  to Arjun on Mar 28, 2018
+
+@askalburgi moved "Button functionality in the app" from Done to Todo  on Mar 28, 2018
+
+@askalburgi moved "Button functionality in the app" from Arjun to Done on Mar 28, 2018
+
+@askalburgi moved "verify outfit recommender outputs" from Vitor to Done on Mar 28, 2018
+
+@askalburgi moved "verify outfit recommender outputs" from Arjun to Vitor on Mar 28, 2018
+
+@askalburgi updated "Recommended Outfit object" on Mar 26, 2018
+
+@vitor-vfm added "Test weighted sum attribute tagging with user images" to Vitor on Mar 26, 2018
+
+@vitor-vfm moved "Weighted sum on attributes got good results (0.06 RMSE on 25k images), but that might be just a reflection of bias in the dataset. Discuss and decide if this is an acceptable error function." from Vitor to Done on Mar 26, 2018
+
+@askalburgi updated "implement cybera http file server POST" on Mar 26, 2018
+
+@askalburgi moved "Need to improve Outfit Recommender function. recommend_piece and/or recommend_outfit" from James to Done on Mar 26, 2018
+
+@askalburgi added "verify outfit recommender outputs" to Arjun on Mar 26, 2018
+
+@askalburgi moved "Wait for Arjun's response on item-item similarity and adjust item_similarity function" from James to Done on Mar 26, 2018
+
+@askalburgi moved "Figure out how to get cybera image links" from Todo  to Done on Mar 26, 2018
+
+@askalburgi moved "upload and download of images" from Arjun to Todo  on Mar 26, 2018
+
+@askalburgi moved "Filter feature" from Arjun to Todo  on Mar 26, 2018
+
+@vitor-vfm added "Augment ImageProcessor to also run predictions on attributes" to Vitor on Mar 26, 2018
+
+@vitor-vfm added "EXPERIMENT: Prepare a sample with 300 examples of each category, excluding categories that don't have enough data points, and train category tagging with it." to Vitor on Mar 26, 2018
+
+@vitor-vfm moved "EXPERIMENT: in the attribute tagging NN, use weighted sum of cross-entropies as loss function, with the weights being the percentage of images with that attribute in the dataset" from Vitor to Done on Mar 26, 2018
+
+@vitor-vfm added "Weighted sum on attributes got good results (0.06 RMSE on 25k images), but that might be just a reflection of bias in the dataset. Discuss and decide if this is an acceptable error function." to Vitor on Mar 26, 2018
+

@@ -1,0 +1,301 @@
+commit 299698eded4a61fcb5f5351543d13bf2d047d263
+Author: Vitor Mendonca <vitor.vfm@gmail.com>
+Date:   Mon Mar 19 18:40:17 2018 +0000
+
+    Use pre-processed (resized) images
+    
+    Having the images be the same size on file read allows tensorflow to
+    batch the dataset
+commit 6fcf402e23c8f48e94a680fff78f2ad1eb4ceb2b
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Tue Apr 3 11:36:00 2018 -0600
+
+    implemented update to firebase
+
+commit ddc155f80625019514077047a4d22b33c2458e94
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Tue Apr 3 12:51:38 2018 -0600
+
+    success fetch and push to mongo
+
+commit 1741ea51e878abfca840f5f2d56602d0e1b90cb6
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Tue Apr 3 13:42:14 2018 -0600
+
+    implement remove on mongodb
+
+commit 5c59308d467d7f98e0b9fe1af557b58b4971eaa5
+Author: Vitor <mendona@ualberta.ca>
+Date:   Mon Apr 2 01:26:55 2018 +0000
+
+    Add image processor class and  supporting files
+
+commit eee7be9b6c57175a3ccb462a865423b78a625590
+Author: Vitor <mendona@ualberta.ca>
+Date:   Mon Apr 2 02:49:21 2018 +0000
+
+    Add image processing capability to server
+
+commit 2178ce305adcfa134281e5bdf6627b1d774bb7a6
+Merge: 1741ea5 eee7be9
+Author: Vítor <vitor-vfm@users.noreply.github.com>
+Date:   Tue Apr 3 14:27:03 2018 -0600
+
+    Merge pull request #3 from ECE493Group3/image_processing
+    
+    Image processing
+
+commit e9a3d8d5b03a18fda9a4ec7fbfddcc6247c47ece
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Tue Apr 3 16:28:18 2018 -0600
+
+    PUSHING BROKEN STUFF JAMES MADE ME DO IT
+
+commit 30d47c807f4b2dc0a855f729876425f06a510a63
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Apr 4 16:49:33 2018 +0000
+
+    modify post request
+
+commit 007be5577bae7643479f155a79b90185c90e7c5f
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Apr 4 10:50:38 2018 -0600
+
+    get request image working
+
+commit ee4b9fd8c318334882edd8265e9e29f941cf7158
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Apr 4 14:26:03 2018 -0600
+
+    push to test
+
+commit f9d4a7454115905ae543ba71e8c82ed6a457540a
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Apr 4 14:27:29 2018 -0600
+
+    beginning of uploadImage new copy
+
+commit 97388bad4f49248a812808c8f2f86385f2fdc821
+Merge: f9d4a74 ee4b9fd
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Apr 4 14:28:25 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493-Group3/personal-stylist
+    
+    # Conflicts:
+    #       www/upload_images.html
+
+commit 7627477fba2e72de1e6f65bea26ebcb2876e7859
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Apr 4 14:49:45 2018 -0600
+
+    add update_wardrobe
+
+commit ce97f55a8f8fe1d3b13320822c862880ab71603c
+Merge: 7627477 30d47c8
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Apr 4 14:52:08 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493Group3/recommender
+
+commit 004dd5ca69a128e62238890ff66822dfb4630bea
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Apr 4 15:55:15 2018 -0600
+
+    New Get stuff for James
+
+commit 61685dd74930c1de2740286de882a5ce8c4a3dd3
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Wed Apr 4 16:05:54 2018 -0600
+
+    tabs on the bottom in android
+
+commit d1e5c7fdbcb0d54d95d3aed67aff1fa89b62d93b
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Apr 4 22:07:15 2018 +0000
+
+    modify server.py, commit before pull
+
+commit 63481581aca7b648b4b6f4ed5356dcdf9f77b4ef
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Apr 4 22:09:25 2018 +0000
+
+    commit before merge
+
+commit b955f83477bfc99bad46db3ab026be1d30642f4a
+Merge: 6348158 ce97f55
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Apr 4 22:09:30 2018 +0000
+
+    Merge branch 'master' of https://github.com/ECE493Group3/recommender
+
+commit 31d80072f158be0361210d36dc94377c1ffb5cf1
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Apr 4 16:14:27 2018 -0600
+
+    forget to upload keys
+
+commit 047ff0ed4ce963d9186846730fbb843392dbb351
+Merge: b955f83 31d8007
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Apr 4 22:14:50 2018 +0000
+
+    Merge branch 'master' of https://github.com/ECE493Group3/recommender
+
+commit 184064c474e0f26630c2e72c22106777b99af7c9
+Author: Vitor <mendona@ualberta.ca>
+Date:   Wed Apr 4 22:49:58 2018 +0000
+
+    server update to firebase
+
+commit 2ff694bad2ff651e15bf7972044f367602f737d5
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Apr 4 17:05:46 2018 -0600
+
+    add recommender to server
+
+commit eb02009671510dbda510961a7893b9dfcff5db46
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Apr 4 18:50:32 2018 -0600
+
+    push to test on cybera
+
+commit 0eba781af1ccedad276e2bfc69033de290b569bf
+Author: vitor-vfm <vitor.vfm@gmail.com>
+Date:   Wed Apr 4 19:12:31 2018 -0600
+
+    Add README
+    
+    It contains running instructions
+
+commit dd5a93beb1a42bb248ba5aed5e8974ce4c5afe84
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Apr 4 20:19:06 2018 -0600
+
+    add destination type on loadPhoto
+
+commit 9f6ec79e9635e0168ef3def46c5c7806151162b8
+Author: Vitor <mendona@ualberta.ca>
+Date:   Thu Apr 5 03:44:37 2018 +0000
+
+    able to load post image to firebase
+
+commit b46f6e90decfd7663da9fecd0eda37ab7a649796
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Apr 4 21:47:41 2018 -0600
+
+    add root scope to sign in, however phone failed and and unable to test, test tomorrow
+
+commit 9d9f09e053e3ecc08b97363f6725375a9bc2589f
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Thu Apr 5 03:44:14 2018 -0600
+
+    upload pictures update
+
+commit 074bb9eb16417748a878ea4e4d8340c491c057ae
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Thu Apr 5 03:44:32 2018 -0600
+
+    fix wonky header placement on android
+
+commit 265d8e03b8c396836ad7acf6f4f7f413fd213f26
+Merge: 074bb9e b46f6e9
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Thu Apr 5 03:45:21 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493-Group3/personal-stylist
+    
+    # Conflicts:
+    #       config.xml
+
+commit 811c150b3e92e810da0b6401daabdc5d290468bc
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Thu Apr 5 04:23:09 2018 -0600
+
+    android icon assets
+
+commit 84d3550bc15213094504da4e6749014a00e0537e
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Thu Apr 5 11:32:03 2018 -0600
+
+    able to post image to user wardrobe
+
+commit bf09e3e2366846dfcae01821e6d120bd1545b968
+Author: Vitor <mendona@ualberta.ca>
+Date:   Fri Apr 6 00:37:44 2018 +0000
+
+    recommender works
+
+commit cf4a7cf334fe090e01dd2416653fbe48fe9cff71
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 6 13:15:44 2018 -0600
+
+    new images
+
+commit 5f2aff07e227eb437708049e66325419892b9a61
+Merge: cf4a7cf 84d3550
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 6 13:15:47 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493-Group3/personal-stylist
+
+commit aed9696b9c5b6e17a9bbee7ece0939277e930321
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 6 13:43:09 2018 -0600
+
+    recommendoutfits two pictures in one
+
+commit 2c5b4f6b245f141140f25cdf2f2eeefd2c771c5a
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 6 17:24:54 2018 -0600
+
+    remove function for images
+
+commit efce43309ca7e7d957d6bdd39545fad5b97ad3eb
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Fri Apr 6 17:41:55 2018 -0600
+
+    image assets without the text in there
+
+commit a9e6d85bb85305ecf7caef9862ae2f78cbd7ea11
+Author: Vitor <mendona@ualberta.ca>
+Date:   Sat Apr 7 01:50:14 2018 +0000
+
+    implement outfit equal function, add img_id for each cloth object
+
+commit 0517dcbbbe622f2f6e543e23195c8a55d2564715
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Sat Apr 7 19:32:42 2018 -0600
+
+    divide upload_image into user_upload_image and stylist_upload_image
+
+commit a34b2476d70fd8e54825cc1e304efb07f6bb98a4
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sun Apr 8 02:34:43 2018 -0600
+
+    android splash screen images
+
+commit e436babbc37f2c057727361c701c4993be181136
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sun Apr 8 02:54:03 2018 -0600
+
+    added eloquent pro font
+
+commit 342f9fb3f7a11ab7d433e8038e147d11b0be1b3d
+Author: Arjun Kalburgi <askalburgi@gmail.com>
+Date:   Sun Apr 8 10:17:31 2018 -0600
+
+    new cards in the stylist + proper implementation of the stylist's  dresslog view
+
+commit 670a64bde269ae545cfa22ccc2d39353d91b84cb
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Sun Apr 8 10:46:40 2018 -0600
+
+    stylist tagging
+
+commit 74da41b5ffa96f84f8af8203fc151a213725d3de
+Merge: 670a64b 342f9fb
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Sun Apr 8 10:46:48 2018 -0600
+
+    Merge branch 'master' of https://github.com/ECE493Group3/personalstylist

@@ -1,0 +1,18 @@
+commit 0b9003ac2a757e9298c713e2bb1cfc63869e6a6c
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Feb 14 15:49:49 2018 -0700
+
+    initial commit
+
+commit 2afcbf345a4a8d6653ac39ea7d1b159357a2403a
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Wed Feb 14 16:02:03 2018 -0700
+
+    small change
+
+commit 4c0bc67ff84719a446824ee31b145563a5df8162
+Author: rwu780 <rwu4@ualberta.ca>
+Date:   Sun Feb 18 20:37:54 2018 -0700
+
+    Initial mock up
+    Need further design, implementation discussion
