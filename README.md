@@ -1,4 +1,4 @@
-![alt text](resources/android/icon/drawable-xxxhdpi-icon.png "Stylist Assistant")
+![alt text](Project\ Source/resources/android/icon/drawable-xxxhdpi-icon.png "Stylist Assistant")
 
 ### Introduction
 
