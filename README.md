@@ -1,4 +1,4 @@
-![alt text](https://github.com/askalburgi/stylist-assistant/blob/master/Project%20Source/resources/android/icon/drawable-xxxhdpi-icon.png?raw=true "Stylist Assistant")
+![alt text](./Project%20Source/Mobile%20App/resources/android/icon/drawable-xxxhdpi-icon.png?raw=true "Stylist Assistant")
 
 ## Introduction
 The Stylist Assistant is a companion for stylists and their clients. In the industry today, personal stylists work with their clients closely, often on a daily basis, helping them achieve the client's desired personal style goal. This makes being a personal stylist a full-time job, and hiring a personal stylist very expensive. Hence, very few people have a personal stylist. 
@@ -16,11 +16,14 @@ The Stylist Assistant seeks to help stylists with their clients daily style usin
 The project's potential to disrupt and grow the industry to a large degree makes it a potentially revolutionary technology.
 
 
+![alt text](https://cdn-images-1.medium.com/max/1600/1*wbElysDqE7oqwJZlm47dvQ.png "Stylist Assistant's features")
+
 
 ## Project Details 
 
-[Read proper details about the project.](https://medium.com/arjunkalburgi/stylist-assistant-updating-stylists-to-do-more-236bf74c50a7)
-[View our presentation slides.](https://docs.google.com/presentation/d/1U4SbZmzaiIkmf1hJq27UpBQrJmhd1VahhA49iJoCT1k/edit)
+Read proper details about the project on [my blog](https://medium.com/arjunkalburgi/stylist-assistant-updating-stylists-to-do-more-236bf74c50a7).
+
+View our class [presentation slides](https://docs.google.com/presentation/d/1U4SbZmzaiIkmf1hJq27UpBQrJmhd1VahhA49iJoCT1k/edit).
 
 ### Image Detection
 [See the Image Detection folder](./Project%20Source/Neural%20Network)
